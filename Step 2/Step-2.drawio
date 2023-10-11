@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T15:02:03.328Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="qUthm_g4PdONMLaqd8ge" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T15:16:08.131Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="BZ1Ua-TzE-6O2MlLyI_d" version="22.0.4" type="github">
   <diagram name="Page-1" id="gVV-lAtCTAZQ4N9Vdqxv">
-    <mxGraphModel dx="2538" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3475" dy="1344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,30 +38,17 @@
         <mxCell id="OSJg8APtaKK_bbcxg1oc-4" value="Classification of stakeholders" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="345" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OSJg8APtaKK_bbcxg1oc-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OSJg8APtaKK_bbcxg1oc-5" target="OSJg8APtaKK_bbcxg1oc-10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-30" y="460" />
-              <mxPoint x="-150" y="460" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OSJg8APtaKK_bbcxg1oc-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OSJg8APtaKK_bbcxg1oc-5" target="OSJg8APtaKK_bbcxg1oc-12">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-30" y="460" />
-              <mxPoint x="90" y="460" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="OSJg8APtaKK_bbcxg1oc-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OSJg8APtaKK_bbcxg1oc-5" target="OSJg8APtaKK_bbcxg1oc-35">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OSJg8APtaKK_bbcxg1oc-5" value="Separation into Physical and Digital" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="345" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OSJg8APtaKK_bbcxg1oc-10" value="Physical" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="490" width="80" height="80" as="geometry" />
+          <mxGeometry x="230" y="820" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OSJg8APtaKK_bbcxg1oc-12" value="Digital" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="490" width="80" height="80" as="geometry" />
+          <mxGeometry x="365" y="1100" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OSJg8APtaKK_bbcxg1oc-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OSJg8APtaKK_bbcxg1oc-14" target="OSJg8APtaKK_bbcxg1oc-4">
           <mxGeometry relative="1" as="geometry">
@@ -92,14 +79,91 @@
         <mxCell id="OSJg8APtaKK_bbcxg1oc-25" value="Hazard Relation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="500" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="OSJg8APtaKK_bbcxg1oc-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OSJg8APtaKK_bbcxg1oc-27" target="OSJg8APtaKK_bbcxg1oc-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="620" />
+              <mxPoint x="405" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="OSJg8APtaKK_bbcxg1oc-27" value="componentization" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="500" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OSJg8APtaKK_bbcxg1oc-31" value="&lt;p style=&quot;line-height: 90%;&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 9px;&quot;&gt;Theoretical exploration allows for the identification of hazards that would not show up in a typical dataset&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="580" y="245" width="150" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="OSJg8APtaKK_bbcxg1oc-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OSJg8APtaKK_bbcxg1oc-34" target="OSJg8APtaKK_bbcxg1oc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OSJg8APtaKK_bbcxg1oc-34" value="Discarding non-hazards" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=0;" vertex="1" parent="1">
           <mxGeometry x="240" y="540" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OSJg8APtaKK_bbcxg1oc-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OSJg8APtaKK_bbcxg1oc-35" target="OSJg8APtaKK_bbcxg1oc-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OSJg8APtaKK_bbcxg1oc-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OSJg8APtaKK_bbcxg1oc-35" target="OSJg8APtaKK_bbcxg1oc-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OSJg8APtaKK_bbcxg1oc-35" value="Should the component be classified as Ground Truth" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="740" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OSJg8APtaKK_bbcxg1oc-38" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSJg8APtaKK_bbcxg1oc-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OSJg8APtaKK_bbcxg1oc-39" target="OSJg8APtaKK_bbcxg1oc-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OSJg8APtaKK_bbcxg1oc-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OSJg8APtaKK_bbcxg1oc-39" target="OSJg8APtaKK_bbcxg1oc-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OSJg8APtaKK_bbcxg1oc-39" value="Is the component Static or Dynamic?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="830" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OSJg8APtaKK_bbcxg1oc-42" value="Static" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="830" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSJg8APtaKK_bbcxg1oc-43" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="807" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSJg8APtaKK_bbcxg1oc-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OSJg8APtaKK_bbcxg1oc-44" target="OSJg8APtaKK_bbcxg1oc-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="940" />
+              <mxPoint x="580" y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OSJg8APtaKK_bbcxg1oc-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OSJg8APtaKK_bbcxg1oc-44" target="OSJg8APtaKK_bbcxg1oc-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OSJg8APtaKK_bbcxg1oc-44" value="Does the component influence the immediate future?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="910" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OSJg8APtaKK_bbcxg1oc-47" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="950" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSJg8APtaKK_bbcxg1oc-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OSJg8APtaKK_bbcxg1oc-48" target="OSJg8APtaKK_bbcxg1oc-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OSJg8APtaKK_bbcxg1oc-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OSJg8APtaKK_bbcxg1oc-48" target="OSJg8APtaKK_bbcxg1oc-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OSJg8APtaKK_bbcxg1oc-48" value="Is the component Environmental or Anomalous" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="1000" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OSJg8APtaKK_bbcxg1oc-52" value="Environmental" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="277.5" y="980" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSJg8APtaKK_bbcxg1oc-53" value="Anomalous" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="408" y="1070" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSJg8APtaKK_bbcxg1oc-54" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="970" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
