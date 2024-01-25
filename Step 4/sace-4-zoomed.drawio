@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T14:48:47.562Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="0pB3A64Nehz-0DFeSDGG" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T14:55:09.754Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="HU2Afe_3dMiOvXZbPHma" version="22.1.18" type="github">
   <diagram name="Page-1" id="T83TTpa8zFjE1lLUYpZm">
     <mxGraphModel dx="1820" dy="1738" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -87,6 +87,9 @@
         </mxCell>
         <mxCell id="KzM7ihCwETdA7sU0UJMm-33" value="Create response sheet for high severity hazards" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="346" y="159.5" width="184" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="KzM7ihCwETdA7sU0UJMm-34" value="&lt;p style=&quot;line-height: 110%; font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;In traditional AV applications, the high severity hazard response is to concede control to humans (&lt;font style=&quot;font-size: 10px;&quot;&gt;Autonomous Vehicles: Disengagements, Accidents and Reaction Times Dixt et al) however in FAO systems that is not a possibility, a paper by Lee et al (Adaptive Fault Detection and Emergency Control&lt;br&gt;of Autonomous Vehicles for Fail-Safe Systems&lt;br&gt;Using a Sliding Mode Approach) suggests that the role of a failed system is to mitigate damage and then essentially shut down, an exploration in the railway space does not seem to have been considered as of yet, so much to discuss in Failure management&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="255.5" y="416" width="365" height="98" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
