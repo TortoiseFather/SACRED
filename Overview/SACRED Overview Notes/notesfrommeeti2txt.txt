@@ -1,0 +1,12 @@
+passcom depends on the stock -> 
+Weather isn't a safety issue
+Communication between trains on parallel lines
+Have to assume the track is clear regardless of visibility, concede a lot of autonomy to AWS
+Safety can be controlled via infrastructure, safety in the moment is flexible
+clapham rail is very important
+car -> rail tech is transferrable, but not directly and needs to be filtered
+fear of Dockland Light Rail
+tech that drivers want -> a train that can communicate with passengers, can update stopping time and such on the fly, D.O.O
+Class 700 series trains prevent wrongside door release
+St Pancras someone fell on track and a driver spotted the person before the ATO
+Every driver has at least one story where they have had to react to an out of domain event
