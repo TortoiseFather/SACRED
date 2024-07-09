@@ -1,9 +1,204 @@
-<mxfile host="app.diagrams.net" modified="2024-07-09T13:56:39.272Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.5.5" etag="IvrvLb5BySIFtXLU_Rwp" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-09T15:20:03.886Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="1yo-cFeaoXj9Tr8nFUJD" version="24.6.4" type="github">
   <diagram name="Page-1" id="jMJl_6bWF69VKY_kllAG">
-    <mxGraphModel>
+    <mxGraphModel dx="2954" dy="1142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="es0cCaJSH2AzpRoKE_30-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry width="400" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Signal Commands&lt;br&gt;&lt;/h1&gt;&lt;p&gt;*X*: Train section occupied without headcode (generic fault)&amp;nbsp;&lt;/p&gt;&lt;p&gt;NOGO: Track section designated as completely blocked before day begins&lt;/p&gt;&lt;p&gt;FAIL: Signal lost&lt;/p&gt;&lt;p&gt;SHUT: Signalbox shut, needs manually opening&lt;/p&gt;&lt;p&gt;-LB-: Line blocked for safety examination&lt;/p&gt;&lt;p&gt;-T3-: Engineers on track (Either ITEM, I321, DETS, KEYD. Unsure of difference)&lt;/p&gt;&lt;p&gt;BTET: Electrical Interference, non-electric trains consider as blank&lt;/p&gt;&lt;p&gt;-RT- or 3187: Long term issues&lt;/p&gt;&lt;p&gt;TEST: Unsure if signal works&lt;/p&gt;&lt;p&gt;-nnn: (Unclear at this time)&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6" y="5" width="394" height="345" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" width="400" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Signal Colours&lt;br&gt;&lt;/h1&gt;&lt;div&gt;White: Any, scheduled&lt;/div&gt;&lt;div&gt;Blue: Passenger, not timetabled&lt;/div&gt;&lt;div&gt;Lilac: Empty train&lt;/div&gt;&lt;div&gt;Yellow: Freight or test. Occasionally ECS&lt;/div&gt;&lt;div&gt;Red: Signaller dummy train.&lt;/div&gt;&lt;div&gt;Green: Action required at signal&lt;/div&gt;&lt;div&gt;Orange: Assistance Train &lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="426" y="5" width="394" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="190" width="400" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Signal Reminder&lt;br&gt;&lt;/h1&gt;&lt;div&gt;Signal officers are assigned a section of track which they &#39;passively monitor&#39; for issues, should an issue arise, the signal officer then places an active warning on the signal junctions, altering the driver that a route change is taking place, the route change alert must be 185 meters away from any junction, the maximum for ATP. A full explanation with fringe examples is given: http://www.railway-technical.com/signalling/route-signalling.html&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="426" y="195" width="394" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-7" value="Typical Scenario" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="101" y="690" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-8" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="es0cCaJSH2AzpRoKE_30-7" target="es0cCaJSH2AzpRoKE_30-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="537" y="700" as="sourcePoint" />
+            <mxPoint x="587" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="113" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-9" value="No issue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="637" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="es0cCaJSH2AzpRoKE_30-11" target="es0cCaJSH2AzpRoKE_30-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-11" value="Contact Driver" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="231" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-13" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="es0cCaJSH2AzpRoKE_30-7" target="es0cCaJSH2AzpRoKE_30-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="123" y="712" as="sourcePoint" />
+            <mxPoint x="151" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="181" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-14" value="SPAD" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-30;" vertex="1" parent="1">
+          <mxGeometry x="150" y="615" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-15" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="es0cCaJSH2AzpRoKE_30-11" target="es0cCaJSH2AzpRoKE_30-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="133" y="722" as="sourcePoint" />
+            <mxPoint x="161" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="221" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-16" value="Driver fit to continue" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-45;" vertex="1" parent="1">
+          <mxGeometry x="210" y="700" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-17" value="Declare command fault (see table) on route" style="shape=offPageConnector;whiteSpace=wrap;html=1;direction=west;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="251" y="440" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="es0cCaJSH2AzpRoKE_30-18" target="es0cCaJSH2AzpRoKE_30-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-18" value="Dispatch Decision" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="251" y="780" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-19" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.638;exitY=0.963;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="es0cCaJSH2AzpRoKE_30-7" target="es0cCaJSH2AzpRoKE_30-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="181" y="860" as="sourcePoint" />
+            <mxPoint x="209" y="848" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="181" y="808" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-20" value="Dispatch Issue" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=25;" vertex="1" parent="1">
+          <mxGeometry x="160" y="805" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-21" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.675;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="es0cCaJSH2AzpRoKE_30-18" target="es0cCaJSH2AzpRoKE_30-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="730" as="sourcePoint" />
+            <mxPoint x="570" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="740" />
+              <mxPoint x="330" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-22" value="Track Intrusion" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-55;" vertex="1" parent="1">
+          <mxGeometry x="320" y="730" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-23" value="Contact Substation" style="shape=offPageConnector;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="251" y="910" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-25" value="Non-urgent FAIL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="870" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-27" value="Input Specific Command" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="426" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-28" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.588;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="es0cCaJSH2AzpRoKE_30-18" target="es0cCaJSH2AzpRoKE_30-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="610" as="sourcePoint" />
+            <mxPoint x="530" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="840" />
+              <mxPoint x="480" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-29" value="Other Signal requirement" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="830" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-31" value="No Reply" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="560" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-32" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="es0cCaJSH2AzpRoKE_30-27" target="es0cCaJSH2AzpRoKE_30-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="610" as="sourcePoint" />
+            <mxPoint x="530" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="670" />
+              <mxPoint x="410" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-33" value="Driver &amp;gt;&amp;gt; 185m from signal" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=24;" vertex="1" parent="1">
+          <mxGeometry x="390" y="620" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-34" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="es0cCaJSH2AzpRoKE_30-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="675" as="sourcePoint" />
+            <mxPoint x="590" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="660" />
+              <mxPoint x="550" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-35" value="Driver ~185m from signal" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-15;" vertex="1" parent="1">
+          <mxGeometry x="490" y="615" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-36" value="&lt;div&gt;Yellow Light&lt;/div&gt;&lt;div&gt;Lock Route&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="590" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-37" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="es0cCaJSH2AzpRoKE_30-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="607.5" y="610" as="sourcePoint" />
+            <mxPoint x="472.5" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="591.5" y="570" />
+              <mxPoint x="480" y="540" />
+              <mxPoint x="380" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-38" value="SPAD" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-39" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="es0cCaJSH2AzpRoKE_30-27" target="es0cCaJSH2AzpRoKE_30-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="725" y="785" as="sourcePoint" />
+            <mxPoint x="610" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="709" y="745" />
+              <mxPoint x="710" y="490" />
+              <mxPoint x="500" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-40" value="Driver &amp;lt; 185m from signal" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-15;" vertex="1" parent="1">
+          <mxGeometry x="680" y="680" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-42" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.413;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="es0cCaJSH2AzpRoKE_30-36" target="es0cCaJSH2AzpRoKE_30-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="735" y="880" as="sourcePoint" />
+            <mxPoint x="100" y="1000" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="730" />
+              <mxPoint x="740" y="830" />
+              <mxPoint x="700" y="950" />
+              <mxPoint x="480" y="1060" />
+              <mxPoint x="80" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="es0cCaJSH2AzpRoKE_30-43" value="Yellow acknowledged" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1010" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
