@@ -1,0 +1,81 @@
+digraph list {
+  label=RailwayOperation;
+  fontname=Arial;
+  fontsize=10;
+  rankdir=TB; // Change rank direction to top-to-bottom for a vertical layout
+
+  // Initial Node
+  i [shape=circle, style=filled, fontsize=1, fixedsize=true, width=0.2, height=0.2, fillcolor=black];
+  i -> idle [label="", color=blue, fontname=Arial, fontsize=9];
+
+  // Idle State
+  idle [label="Idle\nentry / on_enter_idle", shape=rectangle, style="rounded, filled", fontname=Arial, fontsize=10, peripheries=1, fillcolor=white];
+  idle -> pre_departure_checks [label=start, color=blue, fontname=Arial, fontsize=9];
+  idle -> AWS [label="aws_alarm", color=blue, fontname=Arial, fontsize=9];
+  idle -> standby [label="standby_state", color=blue, fontname=Arial, fontsize=9];
+
+  // AWS State
+  AWS [label="AWS\nentry / on_enter_AWS", shape=rectangle, style="rounded, filled", fontname=Arial, fontsize=10, peripheries=1, penwidth=2, fillcolor=turquoise];
+  AWS -> engine_check [label="reset_AWS", color=blue, fontname=Arial, fontsize=9];
+
+  // Brake Change State
+  brake_change [label="Brake_Change\nentry / on_enter_brake_change", shape=rectangle, style="rounded, filled", fontname=Arial, fontsize=10, peripheries=1, fillcolor=white];
+  brake_change -> speed_change [label="brake_check", color=blue, fontname=Arial, fontsize=9];
+  brake_change -> brake_change [label="brake_check\n[brake_not_zero]", color=blue, fontname=Arial, fontsize=9];
+  brake_change -> speed_change [label="speed_limit_change\n[is_speed_under_limit]", color=blue, fontname=Arial, fontsize=9];
+  brake_change -> AWS [label="aws_alarm", color=blue, fontname=Arial, fontsize=9];
+  brake_change -> emergency_stop [label=emergency, color=blue, fontname=Arial, fontsize=9];
+
+  // Cruise State
+  cruise [label="Cruise\nentry / on_enter_cruise", shape=rectangle, style="rounded, filled", fontname=Arial, fontsize=10, peripheries=1, fillcolor=white];
+  cruise -> brake_change [label="speed_limit_change\n[is_speed_over_limit]", color=blue, fontname=Arial, fontsize=9];
+  cruise -> speed_change [label="speed_limit_change\n[is_speed_under_limit]", color=blue, fontname=Arial, fontsize=9];
+  cruise -> station_arrival [label="arrive_station", color=blue, fontname=Arial, fontsize=9];
+  cruise -> AWS [label="aws_alarm", color=blue, fontname=Arial, fontsize=9];
+  cruise -> emergency_stop [label=emergency, color=blue, fontname=Arial, fontsize=9];
+
+  // Departure State
+  departure [label=Departure, shape=rectangle, style="rounded, filled", fontname=Arial, fontsize=10, peripheries=1, fillcolor=white];
+  departure -> engine_check [label=depart, color=blue, fontname=Arial, fontsize=9];
+
+  // Emergency Stop State
+  emergency_stop [label="Emergency_Stop\nentry / on_enter_emergency_stop", shape=rectangle, style="rounded, filled", fontname=Arial, fontsize=10, peripheries=1, fillcolor=white];
+  emergency_stop -> AWS [label="aws_alarm", color=blue, fontname=Arial, fontsize=9];
+  emergency_stop -> maintenance [label=maintain, color=blue, fontname=Arial, fontsize=9];
+
+  // Engine Check State
+  engine_check [label="Engine_Check\nentry / on_enter_engine_check", shape=rectangle, style="rounded, filled", fontname=Arial, fontsize=10, peripheries=1, fillcolor=white];
+  engine_check -> speed_change [label="check_engine\n[is_engine_forward]", color=blue, fontname=Arial, fontsize=9];
+  engine_check -> idle [label="check_engine\n[is_engine_n]", color=blue, fontname=Arial, fontsize=9];
+  engine_check -> AWS [label="aws_alarm", color=blue, fontname=Arial, fontsize=9];
+
+  // Maintenance State
+  maintenance [label=Maintenance, shape=rectangle, style="rounded, filled", fontname=Arial, fontsize=10, peripheries=1, fillcolor=white];
+
+  // Passenger States
+  passenger_alighting [label="Passenger_Alighting", shape=rectangle, style="rounded, filled", fontname=Arial, fontsize=10, peripheries=1, fillcolor=white];
+  passenger_alighting -> station_departure [label="depart_station", color=blue, fontname=Arial, fontsize=9];
+  passenger_boarding [label="Passenger_Boarding", shape=rectangle, style="rounded, filled", fontname=Arial, fontsize=10, peripheries=1, fillcolor=white];
+  passenger_boarding -> passenger_alighting [label="alight_passengers", color=blue, fontname=Arial, fontsize=9];
+
+  // Pre-Departure Checks State
+  pre_departure_checks [label="Pre_Departure_Checks", shape=rectangle, style="rounded, filled", fontname=Arial, fontsize=10, peripheries=1, fillcolor=white];
+  pre_departure_checks -> departure [label="pre_departure", color=blue, fontname=Arial, fontsize=9];
+
+  // Speed Change State
+  speed_change [label="Speed_Change\nentry / on_enter_speed_change", shape=rectangle, style="rounded, filled", fontname=Arial, fontsize=10, peripheries=1, fillcolor=white];
+  speed_change -> engine_check [label="check_engine", color=blue, fontname=Arial, fontsize=9];
+  speed_change -> cruise [label="speed_reached\n[is_speed_limit_reached]", color=blue, fontname=Arial, fontsize=9];
+  speed_change -> AWS [label="aws_alarm", color=blue, fontname=Arial, fontsize=9];
+  speed_change -> emergency_stop [label=emergency, color=blue, fontname=Arial, fontsize=9];
+
+  // Standby State
+  standby [label=Standby, shape=rectangle, style="rounded, filled", fontname=Arial, fontsize=10, peripheries=1, fillcolor=white];
+
+  // Station Arrival and Departure States
+  station_arrival [label="Station_Arrival", shape=rectangle, style="rounded, filled", fontname=Arial, fontsize=10, peripheries=1, fillcolor=white];
+  station_arrival -> passenger_boarding [label="board_passengers", color=blue, fontname=Arial, fontsize=9];
+  station_arrival -> maintenance [label=maintain, color=blue, fontname=Arial, fontsize=9];
+  station_departure [label="Station_Departure", shape=rectangle, style="rounded, filled", fontname=Arial, fontsize=10, peripheries=1, fillcolor=white];
+  station_departure -> cruise [label="continue_cruise", color=blue, fontname=Arial, fontsize=9];
+}
