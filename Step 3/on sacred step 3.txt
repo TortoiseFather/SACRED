@@ -1,0 +1,15 @@
+I hate to be that guy, but I think I need to change step 4 of SACRED
+Hazard classification is a relic of the old way of doing things, I think when I look
+at the work I've done, it was never hazard classification, it was ODM verification as 
+a step
+
+Should I give the full context in the thesis? As in, originally we built a really shoddy
+ODM for Berlin, but it was the interviews that made us go back to the drawing board
+But I fear that if I write the thesis that tells the whole story, there will be 
+just a rediculous amount of bloat (even for me.) How I've handled it right now is that
+in chapter 1 I mention the S-bahn berlin, I show the photos I took, show the steps needed
+to make and ODM then I just sorta pitter off and talk about the tyne and wear route.
+But when I'm talking about step 3, it would be cool to say "originally I wanted to do this
+and my ODM was very object focused but then I talked to the drivers and did SACRED step
+3 and it made me iterate then we shifted focus and blah blah" Which is a cool story AND
+shows use for SACRED but at the same time, there's a lot of context required there.
