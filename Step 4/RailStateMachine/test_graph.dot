@@ -1,0 +1,14 @@
+digraph list {
+label=TrafficLightMachine;
+fontname=Arial;
+fontsize=10pt;
+rankdir=LR;
+i [shape=circle, style=filled, fontsize=1pt, fixedsize=true, width=0.2, height=0.2, fillcolor=black];
+i -> green [label="", color=blue, fontname=Arial, fontsize=9pt];
+green [label=Green, shape=rectangle, style="rounded, filled", fontname=Arial, fontsize=10pt, peripheries=1, penwidth=2, fillcolor=turquoise];
+green -> yellow [label=cycle, color=blue, fontname=Arial, fontsize=9pt];
+red [label="Red\nentry / on_enter_red\nexit / on_exit_red", shape=rectangle, style="rounded, filled", fontname=Arial, fontsize=10pt, peripheries=1, fillcolor=white];
+red -> green [label=cycle, color=blue, fontname=Arial, fontsize=9pt];
+yellow [label=Yellow, shape=rectangle, style="rounded, filled", fontname=Arial, fontsize=10pt, peripheries=1, fillcolor=white];
+yellow -> red [label=cycle, color=blue, fontname=Arial, fontsize=9pt];
+}

@@ -1,0 +1,5 @@
+Out of distribution detection for the purpose of dividing risk categories.
+Cause/Effect estimation
+
+Classification of cause - Size, shape, collision probability
+Effect - Classification of object, 

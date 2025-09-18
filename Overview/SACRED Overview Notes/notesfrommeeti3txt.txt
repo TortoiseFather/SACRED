@@ -1,0 +1,17 @@
+Driver Copetncy - Yardsticks 
+Every train has a signaller
+Damage to the train = risk object, large object or dense object
+Cannot define a 'risk object'
+Safety categorisation / filter out external factors (tresspass shouldn't count)
+As long as everything meets standards, classification is of safe as baseline
+Initial Cause -> Leading Cause -> underlying. Each case is investigated individually and it might be worth looking overall at the RSSB
+Peterborough Incident - LUMO - Driver only had one route 186 times and one day had to run a new route, ran a level crossing on slow line
+ETCS Focus in railway industry
+BAE Heads up Display
+camera reading road signs has a desire
+Performance of ATO based on class 319 (old train) which led to problems. ATO sometimes takes decades to pay for itself
+GoA yes
+Driver Competency -> Rulebook knowledge, pass/fail exam. simulator stress tests, check data recorder for anomalies
+
+(ASK) Every driver has at least one story where they have had to react to an out of domain event
+2 fatalities -> deer / Staff working on line -> Bag of tools on line and 8 lines next to oneanother

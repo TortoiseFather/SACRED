@@ -1,0 +1,46 @@
+Questions for Vincent:
+•What is the most common problem you face at work?
+-Stuff that can't be dealt with locally, wider generic health/safety stuff
+>Cab temperatures
+Unable to focus if the temperature is uncomfortable, sometimes it can be disasterous temperatues of ~35c
+Water ingress in older trains -> freezing
+Signals Past At Danger (SPADS) current metric, SPADS->Working Environment
+>Access to toilets
+Uncomfortable shift times and lack of breaks, when they do get a break, it's often not at a station with a toilet/driver not allowed to abandon train
+Knowledge of lack of toilet access results in lower water consumption, which leads to dehydration and lack of focus.
+
+!Train being left alone within track environment is dangerous
+!Fragmentation of companies stops wider infrastructure development
+
+•What is the "worst" report you have had to handle?
+!Stonehaven derailment
+!Earthworks -> Tunnel where the ground has been dug, but they were dug 120 years ago, basically no maintenence, not built to current standards
+!Embankments -> Raised earth, not built to current standards, climate change issues embankments
+
+•In your email you mention crashworthiness of older trains, what does that mean exactly?
+>Intercity 125/HST 80's trains that don't meet 2020's standards but are still used
+!Impact Resistence
+!Rigity around passengers
+!Crumple zones
+>Driver notices a tree on a track
+!Once a driver notices something, it's too late
+!Safety is fully conceded to signal officer, signal officer must notice tree on track before the driver
+>Vegitation must be managed, can't get rid of vegitation as vegiation is required for embankments
+!Line/Root proving procedure to determine stability -> Empty trains will run a route at low speeds after either engineering works or harsh weather
+!Contact network rail to gather weather metrics -> Extreme weather task force
+
+•What would you classify as a safety critical situation?
+•What role do frontline workers play in identifying safety concerns?
+>Safety of the line - Investigation by ORR after key accident
+>Safety of the individual - Reported by individual or SPAD
+SMIS -> Industry reporting tool -> Safety trends
+
+•Can you discuss any technological advancements or innovations that have improved railway safety in recent years?
+>Trains are non-transferrable, so there has been a push for uniformity of train classes
+!Trains are not like cars, you need to not only know the route layout, you need to know the signal locations, the level crossing location, the pre-signal types, the station entry speed ect.
+>Driver monitoring technology is always rejected
+>Vision technology would be welcomed but is a low priority
+
+•In a phrase, how would you define railway safety?
+!Getting as few people as possible in cars
+It's complicated

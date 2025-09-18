@@ -1,0 +1,205 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0" version="28.1.0">
+  <diagram name="Page-1" id="Qd-FF6Lor7_GVH9x_F0_">
+    <mxGraphModel dx="4510" dy="2603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Signal Passed At Danger&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="540" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2w-PL7oio43s0tg1eRYb-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mTN3L8EmEIhbVEELGd0C-2" target="mTN3L8EmEIhbVEELGd0C-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Signal not seen&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="430" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2w-PL7oio43s0tg1eRYb-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mTN3L8EmEIhbVEELGd0C-3" target="mTN3L8EmEIhbVEELGd0C-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Signal misinterpreted&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="762" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2w-PL7oio43s0tg1eRYb-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="mTN3L8EmEIhbVEELGd0C-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="421" y="640" />
+              <mxPoint x="421" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Signal disregarded&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-150" y="620" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2w-PL7oio43s0tg1eRYb-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="mTN3L8EmEIhbVEELGd0C-5" target="mTN3L8EmEIhbVEELGd0C-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Signal system error&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="mTN3L8EmEIhbVEELGd0C-6" target="mTN3L8EmEIhbVEELGd0C-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mTN3L8EmEIhbVEELGd0C-6" target="mTN3L8EmEIhbVEELGd0C-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="475" />
+              <mxPoint x="40" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Visually blocked signal&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-110" y="420" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mTN3L8EmEIhbVEELGd0C-7" target="mTN3L8EmEIhbVEELGd0C-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-7" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Inability to see signal&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="292" y="380" width="148" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-8" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;h1 style=&quot;line-height: 100%;&quot; align=&quot;left&quot; class=&quot;title-lg&quot;&gt;&lt;font style=&quot;font-size: 16px; line-height: 100%;&quot;&gt;•Technical failure in the case of automation (both)&lt;/font&gt;&lt;/h1&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px; line-height: 100%;&quot;&gt;dirty lens, fogging, mechanical damage, dataset issues&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;h1 style=&quot;line-height: 100%;&quot; align=&quot;left&quot; class=&quot;title-lg&quot;&gt;&lt;font style=&quot;font-size: 16px; line-height: 100%;&quot;&gt;•Communication loss (Eco)&lt;/font&gt;&lt;/h1&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px; line-height: 100%;&quot;&gt;Power to signal loss, signal cable degredation&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="292" y="90" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-9" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;&lt;div&gt;&lt;h1 align=&quot;left&quot; style=&quot;line-height: 100%;&quot; class=&quot;title-lg&quot;&gt;&lt;font style=&quot;font-size: 16px; line-height: 100%;&quot;&gt;•Biological failure (Complicated, both)&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px; line-height: 100%;&quot;&gt;Improperly tested eyesight, broken visual aid equiptment&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;h1 style=&quot;line-height: 100%;&quot; class=&quot;title-lg&quot;&gt;&lt;font style=&quot;font-size: 16px; line-height: 100%;&quot;&gt;•Human inability to see (Ego)&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px; line-height: 100%;&quot;&gt;Biological failure, sun glare, improperly placed signal, signal moved since training data created&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="292" y="240" width="308" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-10" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Vegitation blocking signal&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-250" y="280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-11" value="&lt;div align=&quot;right&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Unprepared weather event (eco, meterologist)&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;right&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Mismanaged trackside flora (eco, Arborist)&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;right&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Debris blocking signal (eco, network Rail)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-410" y="200" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-12" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Non-Vegitation blocking signal&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="280" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-13" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Fallen signage&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Vandalisation from tresspassers&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Overpass structure creating temporary blind spot&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="200" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2w-PL7oio43s0tg1eRYb-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mTN3L8EmEIhbVEELGd0C-20" target="mTN3L8EmEIhbVEELGd0C-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-20" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Ego-vehicle chooses to not brake&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-370" y="730" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2w-PL7oio43s0tg1eRYb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="mTN3L8EmEIhbVEELGd0C-21" target="mTN3L8EmEIhbVEELGd0C-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-21" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Braking system failure&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="720" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-22" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Technical Failure&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="810" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-23" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Leaf adhesion&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="207" y="810" width="103" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.318;entryY=-0.021;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mTN3L8EmEIhbVEELGd0C-12" target="mTN3L8EmEIhbVEELGd0C-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="55" y="390" />
+              <mxPoint x="-55" y="390" />
+              <mxPoint x="-55" y="418" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-34" value="&lt;div style=&quot;line-height: 70%;&quot;&gt;&lt;h1 style=&quot;line-height: 70%;&quot; class=&quot;title-lg&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px; line-height: 70%;&quot;&gt;•&lt;/font&gt;&lt;font style=&quot;font-size: 16px; line-height: 70%;&quot;&gt;Misjudgement of stopping d&lt;font&gt;istance (ego)&lt;/font&gt;&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;h1 style=&quot;line-height: 70%;&quot; align=&quot;left&quot; class=&quot;title-lg&quot;&gt;&lt;font style=&quot;font-size: 16px; line-height: 70%;&quot;&gt;•Overconfidence of braking ability (ego)&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;h1 style=&quot;line-height: 70%;&quot; align=&quot;left&quot; class=&quot;title-lg&quot;&gt;&lt;font style=&quot;font-size: 16px; line-height: 70%;&quot;&gt;•&lt;font&gt;Miscommunication with signaller (both)&lt;/font&gt;&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;h1 style=&quot;line-height: 70%;&quot; align=&quot;left&quot; class=&quot;title-lg&quot;&gt;&lt;font style=&quot;font-size: 16px; line-height: 70%;&quot;&gt;•Incorrectly approved pass (Ego and signaller)&lt;/font&gt;&lt;/h1&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-370" y="780" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-36" value="&lt;div style=&quot;line-height: 60%;&quot;&gt;&lt;h1 style=&quot;line-height: 60%;&quot; class=&quot;title-lg&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 16px; line-height: 60%;&quot;&gt;•&lt;/font&gt;&lt;font style=&quot;font-size: 16px; line-height: 60%;&quot;&gt;Pneumatic/hydrolic braking falure&lt;font&gt;&amp;nbsp;(both, ego leaning)&lt;/font&gt;&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;h1 style=&quot;line-height: 60%;&quot; align=&quot;left&quot; class=&quot;title-lg&quot;&gt;&lt;font style=&quot;font-size: 16px; line-height: 60%;&quot;&gt;•Loss of electrical control (ego)&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;h1 style=&quot;line-height: 60%;&quot; align=&quot;left&quot; class=&quot;title-lg&quot;&gt;&lt;font style=&quot;font-size: 16px; line-height: 60%;&quot;&gt;•Overloaded train&lt;font&gt;(both, eco lean)&lt;/font&gt;&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;h1 align=&quot;left&quot; class=&quot;title-lg&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="850" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-37" value="&lt;div align=&quot;right&quot; style=&quot;line-height: 60%;&quot;&gt;&lt;h1 style=&quot;line-height: 60%;&quot; class=&quot;title-lg&quot;&gt;&lt;font style=&quot;font-size: 16px; line-height: 60%;&quot;&gt;•Unnoticed leaf adhesion&lt;/font&gt;&lt;font style=&quot;font-size: 16px; line-height: 60%;&quot;&gt;&lt;font&gt;&amp;nbsp;(Both)&lt;/font&gt;&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;h1 style=&quot;line-height: 60%;&quot; class=&quot;title-lg&quot;&gt;&lt;font style=&quot;font-size: 16px; line-height: 60%;&quot;&gt;•Oily tracks not being maintained (Eco)&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;h1 style=&quot;line-height: 60%;&quot; class=&quot;title-lg&quot;&gt;&lt;font style=&quot;font-size: 16px; line-height: 60%;&quot;&gt;•Icy tracks misreported&amp;nbsp;&lt;font&gt;(Eco)&lt;/font&gt;&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;h1 class=&quot;title-lg&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=right;" parent="1" vertex="1">
+          <mxGeometry x="130" y="860" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="mTN3L8EmEIhbVEELGd0C-39" target="mTN3L8EmEIhbVEELGd0C-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="585" y="720" />
+              <mxPoint x="700" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-39" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Incorrect aspect displayed&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="730" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="mTN3L8EmEIhbVEELGd0C-40" target="mTN3L8EmEIhbVEELGd0C-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="815" y="720" />
+              <mxPoint x="700" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-40" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Conflicting information given&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="814" y="690" width="136" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-41" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Ego reality conflicts with signal&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="708" y="820" width="142" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-42" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Maintenence flag alongside green&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="900" y="820" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-43" value="&lt;div style=&quot;line-height: 40%;&quot;&gt;&lt;div style=&quot;line-height: 70%;&quot; align=&quot;left&quot;&gt;&lt;h1 style=&quot;line-height: 70%;&quot; class=&quot;title-lg&quot;&gt;&lt;font style=&quot;font-size: 16px; line-height: 70%;&quot;&gt;•Hardware failure causing light to not display (Eco)&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;h1 style=&quot;line-height: 70%;&quot; class=&quot;title-lg&quot;&gt;&lt;font style=&quot;font-size: 16px; line-height: 70%;&quot;&gt;•Software error in signalling logic (Eco)&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;h1 style=&quot;line-height: 70%;&quot; class=&quot;title-lg&quot;&gt;&lt;font style=&quot;font-size: 16px; line-height: 70%;&quot;&gt;•Mis-input by Signal operator (Eco)&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;h1 class=&quot;title-lg&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="530" y="800" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.511;entryY=0.947;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mTN3L8EmEIhbVEELGd0C-41" target="mTN3L8EmEIhbVEELGd0C-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.511;entryY=0.937;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mTN3L8EmEIhbVEELGd0C-42" target="mTN3L8EmEIhbVEELGd0C-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-48" value="&lt;font style=&quot;line-height: 90%; font-size: 16px;&quot;&gt;Both options have a large amount of nuance due to the trust put into the signal operator by the ego-vehicle. Typically, if an issue arises where the ego-vehicle believes the signal is incorrect, they call the signaller and request clairty. Any risk regarding the clarity of signal state should be treat as a special case with it&#39;s own logic.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="708" y="890" width="322" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="mTN3L8EmEIhbVEELGd0C-50" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="823" y="458" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="773" y="440" />
+              <mxPoint x="823" y="440" />
+              <mxPoint x="823" y="460" />
+              <mxPoint x="824" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-50" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Human misinterpretation&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="693" y="330" width="125" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mTN3L8EmEIhbVEELGd0C-51" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="823" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="873" y="440" />
+              <mxPoint x="823" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-51" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Machine misinterpretation&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="830" y="330" width="143" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mTN3L8EmEIhbVEELGd0C-56" value="&lt;div style=&quot;line-height: 90%;&quot;&gt;&lt;font style=&quot;line-height: 90%; font-size: 16px;&quot;&gt;The level of misinterpretation and response regards the level of automation. This particular problem cannot be solved until Step 6 where we know for certain what our scope of automation is, as well as exactly what technologies we are using. For example, in the event of driver assistance technology, we have the problem of overreliance, but in driver replacement technology, we have the lack of oversight.&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="647" y="140" width="350" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="2w-PL7oio43s0tg1eRYb-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.522;entryY=1.034;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mTN3L8EmEIhbVEELGd0C-23" target="mTN3L8EmEIhbVEELGd0C-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="144" y="840" />
+              <mxPoint x="144" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2w-PL7oio43s0tg1eRYb-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.522;entryY=1.034;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mTN3L8EmEIhbVEELGd0C-22" target="mTN3L8EmEIhbVEELGd0C-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="144" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
