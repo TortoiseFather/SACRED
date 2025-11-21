@@ -1,9 +1,72 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0" version="29.0.3">
   <diagram name="Page-1" id="32Do6GhvOz64kM2nkqfS">
-    <mxGraphModel>
+    <mxGraphModel dx="750" dy="1473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="x1zvz6RBtmZhf0XuI0_t-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="x1zvz6RBtmZhf0XuI0_t-1" target="x1zvz6RBtmZhf0XuI0_t-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x1zvz6RBtmZhf0XuI0_t-1" value="6.1 Technology Scoping" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x1zvz6RBtmZhf0XuI0_t-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="x1zvz6RBtmZhf0XuI0_t-2" target="x1zvz6RBtmZhf0XuI0_t-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x1zvz6RBtmZhf0XuI0_t-2" value="6.2 SotA TRAP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="190" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x1zvz6RBtmZhf0XuI0_t-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x1zvz6RBtmZhf0XuI0_t-3" target="x1zvz6RBtmZhf0XuI0_t-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x1zvz6RBtmZhf0XuI0_t-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="x1zvz6RBtmZhf0XuI0_t-3" target="x1zvz6RBtmZhf0XuI0_t-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x1zvz6RBtmZhf0XuI0_t-3" value="6.3 Operational State Validation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x1zvz6RBtmZhf0XuI0_t-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x1zvz6RBtmZhf0XuI0_t-4" target="x1zvz6RBtmZhf0XuI0_t-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x1zvz6RBtmZhf0XuI0_t-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="x1zvz6RBtmZhf0XuI0_t-4" target="x1zvz6RBtmZhf0XuI0_t-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x1zvz6RBtmZhf0XuI0_t-4" value="6.4 Simulation and Experimentation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="490" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x1zvz6RBtmZhf0XuI0_t-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x1zvz6RBtmZhf0XuI0_t-5" target="x1zvz6RBtmZhf0XuI0_t-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x1zvz6RBtmZhf0XuI0_t-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x1zvz6RBtmZhf0XuI0_t-5" target="x1zvz6RBtmZhf0XuI0_t-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x1zvz6RBtmZhf0XuI0_t-5" value="6.5 Boundary Definition" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="640" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x1zvz6RBtmZhf0XuI0_t-6" value="[D19]&lt;div&gt;Limitation Report&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="640" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x1zvz6RBtmZhf0XuI0_t-7" value="[D17] AS Development Log" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="340" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x1zvz6RBtmZhf0XuI0_t-8" value="[D18] AS Design Justification" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x1zvz6RBtmZhf0XuI0_t-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x1zvz6RBtmZhf0XuI0_t-9" target="x1zvz6RBtmZhf0XuI0_t-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x1zvz6RBtmZhf0XuI0_t-9" value="[D16] Hazardous Failure Arguments" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="160" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x1zvz6RBtmZhf0XuI0_t-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x1zvz6RBtmZhf0XuI0_t-10" target="x1zvz6RBtmZhf0XuI0_t-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x1zvz6RBtmZhf0XuI0_t-10" value="[A] Scoped SotA" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x1zvz6RBtmZhf0XuI0_t-20" value="6.6 Restriction or continuation" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="810" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
