@@ -1,0 +1,163 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.3.7">
+  <diagram name="Page-1" id="CvSudg9Ii9seEU-uqaDI">
+    <mxGraphModel dx="1426" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QgUEwHQGE3vclBge2d70-1" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="&lt;div&gt;Signal Passed&lt;/div&gt;&lt;div&gt;At Danger&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-3" edge="1" parent="1" source="QgUEwHQGE3vclBge2d70-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QgUEwHQGE3vclBge2d70-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Signal not seen" vertex="1">
+          <mxGeometry height="60" width="120" x="224" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-5" edge="1" parent="1" source="QgUEwHQGE3vclBge2d70-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QgUEwHQGE3vclBge2d70-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Signal misinterpreted" vertex="1">
+          <mxGeometry height="60" width="120" x="484" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-7" edge="1" parent="1" source="QgUEwHQGE3vclBge2d70-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="QgUEwHQGE3vclBge2d70-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Signal disregarded" vertex="1">
+          <mxGeometry height="60" width="120" x="224" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-9" edge="1" parent="1" source="QgUEwHQGE3vclBge2d70-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="QgUEwHQGE3vclBge2d70-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Signal system error" vertex="1">
+          <mxGeometry height="60" width="120" x="484" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-10" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Collision with Object on track" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-11" edge="1" parent="1" source="QgUEwHQGE3vclBge2d70-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QgUEwHQGE3vclBge2d70-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Intentional intrusion in event of human" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-13" edge="1" parent="1" source="QgUEwHQGE3vclBge2d70-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QgUEwHQGE3vclBge2d70-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Insufficient fencing resulting in wandering cattle" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-15" edge="1" parent="1" source="QgUEwHQGE3vclBge2d70-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="QgUEwHQGE3vclBge2d70-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Ignored warnings" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-17" edge="1" parent="1" source="QgUEwHQGE3vclBge2d70-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="QgUEwHQGE3vclBge2d70-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Shift in geography" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-28" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Junction Derailment" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-29" edge="1" parent="1" source="QgUEwHQGE3vclBge2d70-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QgUEwHQGE3vclBge2d70-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Speed limits disregarded" vertex="1">
+          <mxGeometry height="60" width="120" x="224" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-31" edge="1" parent="1" source="QgUEwHQGE3vclBge2d70-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QgUEwHQGE3vclBge2d70-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Weather anomalies" vertex="1">
+          <mxGeometry height="60" width="120" x="484" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-33" edge="1" parent="1" source="QgUEwHQGE3vclBge2d70-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="QgUEwHQGE3vclBge2d70-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Track unfamiliarity" vertex="1">
+          <mxGeometry height="60" width="120" x="224" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-35" edge="1" parent="1" source="QgUEwHQGE3vclBge2d70-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="QgUEwHQGE3vclBge2d70-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Poor maintenence state" vertex="1">
+          <mxGeometry height="60" width="120" x="484" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Vegitation blocking signal" vertex="1">
+          <mxGeometry height="30" width="60" x="180" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Vandalism blocking signal" vertex="1">
+          <mxGeometry height="30" width="60" x="284" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Human misinterpretation" vertex="1">
+          <mxGeometry height="30" width="60" x="450" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-58" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Machine misinterpretation" vertex="1">
+          <mxGeometry height="30" width="60" x="570" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Ego-vehicle chooses not to brake" vertex="1">
+          <mxGeometry height="30" width="110" x="155" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Braking system failure" vertex="1">
+          <mxGeometry height="30" width="80" x="290" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Incorrect aspect displayed" vertex="1">
+          <mxGeometry height="30" width="60" x="460" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-62" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Conflicting information given" vertex="1">
+          <mxGeometry height="30" width="60" x="570" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Suicide" vertex="1">
+          <mxGeometry height="30" width="60" x="180" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-64" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Non-suicidal vandalism" vertex="1">
+          <mxGeometry height="30" width="60" x="294" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Fencing not placed" vertex="1">
+          <mxGeometry height="30" width="60" x="480" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-66" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Fencing degraded over time" vertex="1">
+          <mxGeometry height="30" width="60" x="570" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-67" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Signal issue" vertex="1">
+          <mxGeometry height="30" width="60" x="180" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Human error" vertex="1">
+          <mxGeometry height="30" width="60" x="294" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Flooding" vertex="1">
+          <mxGeometry height="30" width="60" x="474" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Embankment collapse" vertex="1">
+          <mxGeometry height="30" width="60" x="570" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Signal issue" vertex="1">
+          <mxGeometry height="30" width="60" x="180" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Human error" vertex="1">
+          <mxGeometry height="30" width="60" x="300" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Insufficient Training" vertex="1">
+          <mxGeometry height="30" width="60" x="203" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-74" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Data drift" vertex="1">
+          <mxGeometry height="30" width="60" x="294" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-75" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Human error" vertex="1">
+          <mxGeometry height="30" width="60" x="550" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-76" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Unforseen change to environment" vertex="1">
+          <mxGeometry height="30" width="60" x="460" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-77" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Poor meteorology" vertex="1">
+          <mxGeometry height="30" width="60" x="474" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="QgUEwHQGE3vclBge2d70-78" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Poor communication" vertex="1">
+          <mxGeometry height="30" width="60" x="560" y="830" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
