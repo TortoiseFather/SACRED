@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="J1fms4WY8FjVMgAPb9-s">
+    <mxGraphModel dx="2934" dy="1147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gWlbErO8xicSqiFQF6pS-9" edge="1" parent="1" source="gWlbErO8xicSqiFQF6pS-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gWlbErO8xicSqiFQF6pS-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gWlbErO8xicSqiFQF6pS-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Adhesion state&lt;/div&gt;&lt;div&gt;mu_E, mu_P&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gWlbErO8xicSqiFQF6pS-2" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="gWlbErO8xicSqiFQF6pS-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="580" y="90" as="sourcePoint" />
+            <mxPoint x="510" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gWlbErO8xicSqiFQF6pS-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Context, weather, location, contamination, state.&lt;/div&gt;&lt;div&gt;(Assumed null for example)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="150" x="505" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gWlbErO8xicSqiFQF6pS-7" edge="1" parent="1" source="gWlbErO8xicSqiFQF6pS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" target="gWlbErO8xicSqiFQF6pS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gWlbErO8xicSqiFQF6pS-8" edge="1" parent="1" source="gWlbErO8xicSqiFQF6pS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" target="gWlbErO8xicSqiFQF6pS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gWlbErO8xicSqiFQF6pS-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Slip evidence" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="gWlbErO8xicSqiFQF6pS-12" edge="1" parent="1" source="gWlbErO8xicSqiFQF6pS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" target="gWlbErO8xicSqiFQF6pS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gWlbErO8xicSqiFQF6pS-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Jerk evidence" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="gWlbErO8xicSqiFQF6pS-14" edge="1" parent="1" source="gWlbErO8xicSqiFQF6pS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gWlbErO8xicSqiFQF6pS-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gWlbErO8xicSqiFQF6pS-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Adhesion evidence" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="gWlbErO8xicSqiFQF6pS-11" edge="1" parent="1" source="gWlbErO8xicSqiFQF6pS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gWlbErO8xicSqiFQF6pS-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gWlbErO8xicSqiFQF6pS-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Ego-validity" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="gWlbErO8xicSqiFQF6pS-16" edge="1" parent="1" source="gWlbErO8xicSqiFQF6pS-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gWlbErO8xicSqiFQF6pS-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gWlbErO8xicSqiFQF6pS-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Braking bounds" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="gWlbErO8xicSqiFQF6pS-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Relative Braking admissibility" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="640" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
